@@ -12,7 +12,7 @@ The explanations start with a small example you can work through by hand. Once t
 
 The animations use Manim Community, a fork of the animation engine Grant Sanderson created for 3Blue1Brown. [About Manim](https://docs.manim.community/en/stable/faq/installation.html).
 
-Please don’t contact the maintainer for past exams.
+I don’t have past exams available through this repository. Please don’t ask me for copies.
 
 ## Run locally
 
