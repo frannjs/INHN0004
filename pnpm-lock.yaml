@@ -12,8 +12,8 @@ importers:
         specifier: ^2.119.2
         version: 2.119.2
       katex:
-        specifier: ^0.16.21
-        version: 0.16.47
+        specifier: ^0.18.2
+        version: 0.18.2
       react:
         specifier: ^19.0.0
         version: 19.3.1
@@ -822,8 +822,8 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
-  katex@0.16.47:
-    resolution: {integrity: sha512-Eeo8Ys1doU1z+x8AZsPpQu+p/QcZBI5PeOo7QGQdy2x2m0MU/hYagBbGOmXwr5KVbEfVuWv9LpnQWeehogurjg==}
+  katex@0.18.2:
+    resolution: {integrity: sha512-3snve4y0SXTMequLim1FMiPvLGElySam0blN5xQZBqEY3lOJz1TnuaaiugnBZBqHzlSAGmFTYL7MCQkORuLKCA==}
     hasBin: true
 
   longest-streak@3.1.0:
@@ -1905,7 +1905,7 @@ snapshots:
 
   json5@2.2.3: {}
 
-  katex@0.16.47:
+  katex@0.18.2:
     dependencies:
       commander: 8.3.0
 
