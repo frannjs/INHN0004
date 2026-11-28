@@ -1,29 +1,29 @@
-# Discrete Structures (INHN0004)
+<h1 align="center">Discrete Structures</h1>
 
-An interactive textbook for TUM's Discrete Structures course. [Read the textbook](https://ds.tum.ninja/).
+<p align="center">An interactive textbook for TUM’s INHN0004 course.</p>
 
-The reader includes worked practice and a searchable symbol dictionary. Sign in to save notes, highlights, and reading progress.
+<p align="center"><strong><a href="https://ds.tum.ninja/">Read the textbook ↗</a></strong></p>
 
 ## How it teaches
 
-The explanations start with a small example you can work through by hand. Once the idea is clear, they introduce the notation, state the definition precisely, and explain why the result holds. Graphs, tables, and worked problems help connect each step to the next.
+Work through a small example by hand, then see how the formal definition describes what you just did. The chapters use graphs, tables, and worked exercises to show why the results hold.
 
-**Example from relations.** Take the relation R with the arrows a → b and b → c. Where can you get from a in exactly two steps? Follow the arrows through b to c. In symbols, (a, c) ∈ R². In the Boolean matrix for R², that same fact appears as a 1 in row a, column c. [Explore relations in the textbook](https://ds.tum.ninja/?page=ch04#sec-4-3).
+> In a relation with arrows *a* → *b* → *c*, following exactly two arrows takes you from *a* to *c*. So (*a*, *c*) ∈ *R*², and the Boolean matrix for *R*² has a 1 in row *a*, column *c*. [Explore relations](https://ds.tum.ninja/?page=ch04#sec-4-3).
 
-The animations use Manim Community, a fork of the animation engine Grant Sanderson created for 3Blue1Brown. [About Manim](https://docs.manim.community/en/stable/faq/installation.html).
+The animations use Manim Community, a fork of the engine Grant Sanderson created for 3Blue1Brown. [About Manim](https://docs.manim.community/en/stable/faq/installation.html).
 
-## Studying side by side
+Read the textbook and search the Symbol Dictionary without an account. Sign in to save notes, highlights, and your place.
 
-On desktop, keep the textbook on the left and your AI chat on the right. Use Chrome split view with ChatGPT, Gemini, or Claude. Where available, Gemini in Chrome and the Claude in Chrome extension also offer side panels. [Chrome split view](https://support.google.com/chrome/answer/16971124) · [Gemini in Chrome](https://support.google.com/chrome/answer/16283624) · [Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome)
+## Study with ChatGPT in the sidebar
 
-Share the textbook passage you’re working on and ask for a concrete example or a hint for the next step of a proof.
+Keep the textbook open and launch your ChatGPT browser extension in Chrome’s right sidebar, as shown below. Share the passage you’re reading and ask for a smaller example or a hint for the next step of a proof.
 
-![The textbook’s section on injectivity and surjectivity beside a ChatGPT conversation](docs/screenshots/chatgpt-study-setup.png)
+![The chapter on functions with the ChatGPT extension open in Chrome’s right sidebar](docs/screenshots/chatgpt-study-setup.png)
 
 <details>
-<summary>See the Manim example and Symbol Dictionary</summary>
+<summary>See the Manim animation and Symbol Dictionary</summary>
 
-![A Manim animation about images and preimages beside a worked example in Gemini](docs/screenshots/gemini-manim-example.png)
+![An animation of images and preimages with Gemini open in Chrome’s sidebar](docs/screenshots/gemini-manim-example.png)
 
 ![The searchable Symbol Dictionary with symbols, spoken readings, and explanations](docs/screenshots/symbol-dictionary.png)
 
@@ -33,5 +33,7 @@ Share the textbook passage you’re working on and ask for a concrete example or
 
 ## Run locally
 
-    pnpm install
-    pnpm dev
+```sh
+pnpm install
+pnpm dev
+```
