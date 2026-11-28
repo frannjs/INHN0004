@@ -12,6 +12,23 @@ The explanations start with a small example you can work through by hand. Once t
 
 The animations use Manim Community, a fork of the animation engine Grant Sanderson created for 3Blue1Brown. [About Manim](https://docs.manim.community/en/stable/faq/installation.html).
 
+## Studying side by side
+
+On desktop, keep the textbook on the left and your AI chat on the right. Use Chrome split view with ChatGPT, Gemini, or Claude. Where available, Gemini in Chrome and the Claude in Chrome extension also offer side panels. [Chrome split view](https://support.google.com/chrome/answer/16971124) · [Gemini in Chrome](https://support.google.com/chrome/answer/16283624) · [Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome)
+
+Share the textbook passage you’re working on and ask for a concrete example or a hint for the next step of a proof.
+
+![The textbook’s section on injectivity and surjectivity beside a ChatGPT conversation](docs/screenshots/chatgpt-study-setup.png)
+
+<details>
+<summary>See the Manim example and Symbol Dictionary</summary>
+
+![A Manim animation about images and preimages beside a worked example in Gemini](docs/screenshots/gemini-manim-example.png)
+
+![The searchable Symbol Dictionary with symbols, spoken readings, and explanations](docs/screenshots/symbol-dictionary.png)
+
+</details>
+
 **I don’t have any past exams, so don't ask for them.**
 
 ## Run locally
