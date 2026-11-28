@@ -14,20 +14,21 @@ The animations use Manim Community, a fork of the engine Grant Sanderson created
 
 Read the textbook and search the Symbol Dictionary without an account. Sign in to save notes, highlights, and your place.
 
-## Study with ChatGPT in the sidebar
+## Study with your LLM
 
-Keep the textbook open and launch your ChatGPT browser extension in Chrome’s right sidebar, as shown below. Share the passage you’re reading and ask for a smaller example or a hint for the next step of a proof.
+Keep the textbook open and chat in Chrome’s right sidebar using a ChatGPT extension, Gemini in Chrome, or the Claude in Chrome extension. Share a passage and ask for a smaller example or a hint for the next step of a proof. [Gemini setup](https://support.google.com/chrome/answer/16283624) · [Claude extension](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome)
 
 ![The chapter on functions with the ChatGPT extension open in Chrome’s right sidebar](docs/screenshots/chatgpt-study-setup.png)
 
-<details>
-<summary>See the Manim animation and Symbol Dictionary</summary>
+*Working through injectivity and surjectivity with ChatGPT.*
 
 ![An animation of images and preimages with Gemini open in Chrome’s sidebar](docs/screenshots/gemini-manim-example.png)
 
+*A Manim animation on images and preimages, with Gemini in the sidebar.*
+
 ![The searchable Symbol Dictionary with symbols, spoken readings, and explanations](docs/screenshots/symbol-dictionary.png)
 
-</details>
+*Looking up notation in the Symbol Dictionary.*
 
 **I don’t have any past exams, so don't ask for them.**
 
